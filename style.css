@@ -1,0 +1,10 @@
+/* work sans font from google */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;800&display");
+* {font-family: 'Work Sans'}
+.head{color: #131318;
+    font-size: 36px;
+    word-wrap: break-word}
+    .heading1{color: #FF5400;
+        font-size: 36px;
+        word-wrap: break-word}
+    
