@@ -3,30 +3,31 @@
 * {
   font-family: "Work Sans";
 }
+header{background:rgb(252, 248, 242);padding: 30px 250px ;}
 nav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
 }
 nav ul {
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 nav li {
-  list-style: none;
-  justify-content: space-between;
+  list-style: none;font-size: 1rem;font-weight: 400px;
   margin-right: 60px;
 }
+nav li a{text-decoration: none;
+color: #131318;}
 .head {
-  font-size: 36px;
+  font-size: 2rem;font-weight: 800;
   word-wrap: break-word;
   justify-content: space-between;
-  padding: 20px;
 }
 .heading1 {
   color: #ff5400;
   font-size: 36px;
+  font-weight: 800;
   margin-left: 10px;
   word-wrap: break-word;
 }
@@ -34,26 +35,38 @@ nav li {
   color: #ff5400;
 }
 .banner {
-background-image:  url(img/Group\ 13\ \(1\)\ \(1\).png);background-repeat: no-repeat;width: 393px;
+background-image:  url(img/Group\ 13\ \(1\)\ \(1\).png);background-repeat: no-repeat;width: 1440px;
 height: 500px;
 flex-shrink: 0;
 border-radius: 16px;
 background-size:cover;
+background-position: center;
+margin-right: 153px;
 }
 .banner-section-1 {
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 800;
   word-wrap: break-word;
   text-align: center;
   color: rgb(255, 244, 244);
 }
+.explore-selection{display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);}
 .logo {
   margin-right: 10px;
   width: 50px;
   height: 27px;
   cursor: pointer;
 }
-.homepage{}
+.homepage{
+  border-radius: 8px;
+background: #FFF;width: 174px;
+height: 52px;
+}
+.down-arrow{position: absolute relative;}
 /* popular section related styles */
 .popular-section-tittle {color: #131318;
     text-align: center;
@@ -70,7 +83,9 @@ background-size:cover;
 }
 .reading-btn-text {
   color: white;
-}/* destination section related styles */
+}
+.popular-img{}
+/* destination section related styles */
 .destination-box-1{background-image: url(img/Rectangle\ 5.png);
 background-repeat: no-repeat;width: 573px;
 height: 300px;
@@ -102,19 +117,14 @@ border-radius: 20px;
 }
 /* newsletter related styles */
 .newsletter-box{
-  display: flex;
+  display: flex;justify-content: space-between;
+}.newsletter-text-section{ margin-left: 135px;
+  background-color: azure;
+}.newsletter-text{color: #5A5A5D;
+  font-size: 16px;
+  line-height: 26px;
 }
-
-.newsletter-img {
-  width: 672px;
-  height: 422px;
-  flex-shrink: 0;
-}
-.newsletter-tittle {
-}
-.newsletter-text {
-}
-.newsletter-form {
+.newsletter-form {display: block;
   width: 393px;
   height: 52px;
   flex-shrink: 0;
@@ -131,6 +141,9 @@ border-radius: 20px;
 .subscribe-btn-text {
   color: aliceblue;
 }
+.newsletter-img{width: 672px;
+  height: 422px;
+  flex-shrink: 0; margin-right: 135px;}
 /* footing related styles */
 .socials {
   text-align: center;
