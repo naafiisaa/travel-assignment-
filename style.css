@@ -132,15 +132,16 @@ border-radius: 20px;
 }
 .choosing-option-1st{justify-content: center;}
 /* client review styles */
-.client-grid{
-
+.client-container{
+display: grid; background-color: bisque;
 }
-.client{ margin-top: 4rem;
-    display: grid;
-  grid-template-columns: repeat(3, 1fr );
-  gap: 2rem;
+.client-header{text-align: center;}
+.client-grid{ margin-top: 4rem;
+    display: flex;
+    justify-content: space-between; 
+    gap: 30px;
 }
-.client-card{ max-width: 70px;
+.client-card-img{ max-width: 70px;
     border-radius: 100%;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 1.5rem;
@@ -155,9 +156,9 @@ border-radius: 20px;
 
 }
 /* newsletter related styles */
-.newsletter-box{
+.newsletter-box{ margin-top: 4rem;width: 100%;
   display: flex;justify-content: space-between;
-}.newsletter-text-section{ margin-left: 135px;
+}.newsletter-text-section{ 
   background-color: azure;
 }.newsletter-text{color: #5A5A5D;
   font-size: 16px;
