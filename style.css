@@ -31,27 +31,31 @@ color: #131318;}
   margin-left: 10px;
   word-wrap: break-word;
 }
-.banner {
+.banner {padding: 20px;
 background-image:  url(img/Group\ 13\ \(1\)\ \(1\).png);background-repeat: no-repeat;width: 1440px;
 height: 500px;
 flex-shrink: 0;
 border-radius: 16px;
 background-size:cover;
 background-position: center;
-margin-right: 153px;
+
 }
-.banner-section-1 { margin-top: 70px;
+.banner-box{margin-left: 288px;
+margin-right: 288px;
+margin-bottom: 60px;
+}
+.banner-section-1 {
   font-size: 4rem;
   font-weight: 800;
-  word-wrap: break-word;
   text-align: center;
   color: rgb(255, 244, 244);
 }
-.text-1{width: 676px;color: #FFF;
+.text-1{width: 236px;
+  margin-left:310px;color:white;
   text-align: center;
-  font-size: 1rem;margin-left: 342px;margin-right: 252px;
+  font-size: 1rem;
   font-weight: 400; justify-content: center;
-  line-height: 26px; /* 162.5% */}
+  }
 .explore-selection{display: inline-flex;
   padding: 16px;
   align-items: flex-start;
@@ -71,15 +75,12 @@ height: 52px;
 .down-arrow{position: absolute relative;}
 
 /* popular section related styles */
-
 .popular-section-tittle {color: #131318;
     text-align: center;
     font-size: 40px;
 }
-.popular-section-text {text-decoration: none;
-}
 .order-box{list-style-position: outside;
-  margin-top: 20px;
+
 list-style-type: square;
 }
 .reading-btn {
@@ -92,13 +93,21 @@ list-style-type: square;
 .reading-btn-text {
   color: white;
 }
-.popular-box{
-  display: flex;justify-content: space-between;grid-template-columns: 40px;
+.popular-text-box{
 }
-.popular-img{width: 540px;
-  height: 340px;margin-right: 135px;
+
+.popular-box{
+  display: flex;
+  justify-content: space-between;
+}
+.popular-box-start{background-color:whitesmoke;
+height: 440px;}
+.popular-img{width: 540px; margin-left: 110px;
+  margin-top: 30px;
+  height: 550px;
+  flex-shrink: 0;
 border-radius: 16px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;}
+ }
 /* destination section related styles */
 .destination-box-1{background-image: url(img/Rectangle\ 5.png);
 background-repeat: no-repeat;width: 573px;
@@ -154,7 +163,7 @@ justify-content: space-between;
   }
 /* client review styles */
 .client-container{
-display: grid; background-color: bisque;
+display: grid;
 }
 .client-header{text-align: center;}
 .client-grid{ margin-top: 4rem;
@@ -168,6 +177,18 @@ display: grid; background-color: bisque;
     margin-bottom: 1.5rem;
     
 }
+.client-card-1{width: 403px;
+  height: 284px;;
+  flex-shrink: 0;
+background-color: whitesmoke;}
+  .client-card-2{width: 403px;
+    height: 284px;
+    flex-shrink: 0;
+  background-color: whitesmoke;}
+  .client-card-3{width: 403px;margin-bottom: 4rem;
+    background-color: whitesmoke;
+    height: 284px;
+    flex-shrink: 0;}
 .client-card-h4{
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
@@ -180,24 +201,36 @@ display: grid; background-color: bisque;
 .newsletter-box{ margin-top: 4rem;width: 100%;
   display: flex;justify-content: space-between;
 }.newsletter-text-section{ 
-  background-color: azure;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+  margin-left: 135px;
 }.newsletter-text{color: #5A5A5D;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 26px;margin-left: 4rem;
+  margin-right: 4rem;
 }
-.newsletter-form {display: block;
+.newsletter-tittle{margin-left: 4rem;
+  margin-right: 4rem;
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+
+}
+.newsletter-form{display: grid;margin-left: 4rem;
+margin-right: 4rem;}
+.naming-form{margin-bottom: 1rem;
   width: 393px;
   height: 52px;
   flex-shrink: 0;
-  border-radius: 8px;
-  background: rgba(19, 19, 24, 0.05);
-}
-.subscribe-btn {
-  border-radius: 8px;
-  background: #ff5400;
-  width: 174px;
+  border-radius: 0.4rem;
+  background: rgba(19, 19, 24, 0.05);}
+.subscribe-btn {width: 393px;
   height: 52px;
   flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  margin-left: 4rem;
 }
 .subscribe-btn-text {
   color: aliceblue;
@@ -205,6 +238,7 @@ display: grid; background-color: bisque;
 .newsletter-img{width: 672px;
   height: 422px;
   flex-shrink: 0; margin-right: 135px;}
+
 /* footing related styles */
 .socials{
   text-align: center;width: 1440px;
