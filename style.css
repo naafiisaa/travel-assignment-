@@ -19,7 +19,7 @@ nav li {
 }
 nav li a{text-decoration: none;
 color: #131318;}
-.head {
+.primary-head {
   font-size: 2rem;font-weight: 800;
   word-wrap: break-word;
   justify-content: space-between;
@@ -108,29 +108,50 @@ border-radius: 20px;
 }
 
 /* choice related styles */
-.choice-section-tittle {
-  color: #131318;
-  text-align: center;
-  font-size: 40px;
-  line-height: normal;
-}
-#choice-1-description {
-  color: rgba(19, 19, 24, 0.7);
-  text-align: center;
+.choosing-section-box{display: grid;}
+.choice-section-description{ margin-left: 343px;
+  margin-right: 343px;
+  color: rgba(19, 19, 24, 0.70);
+  font-size:1rem;
+  font-weight: 400;
   line-height: 26px;
-  width: 670px;
-  font-size: 16px;
-  justify-content: center;
-  align-items: center;
-}
-.choosing-container {
-  display: flex;
-}
-.choosing-option{justify-content: space-between;}
-.choosing-option-description {
-  padding: 20px 55px 32px 0px;
-}
-.choosing-option-1st{justify-content: center;}
+  text-align: center;}
+.choice-section-tittle{color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;}
+  .choosing-option-list{margin-left: 135px;
+    margin-right: 135px;
+    padding: 30px;
+display: flex;
+justify-content: space-between;
+  }
+  .choosing-option-1st{padding: 30px;
+    width: 573px;
+    height: 184px;
+    flex-shrink: 0;border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+
+  }
+  .choosing-option-2nd{padding: 30px;
+    width: 573px;
+    height: 184px;
+    flex-shrink: 0;border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+  }
+  .choosing-option-3rd{border-radius: 16px;
+    padding: 30px;
+    width: 573px;
+    height: 184px;
+    flex-shrink: 0;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 568px; margin-right: 434px;
+    margin-bottom: 60px;
+
+  }
 /* client review styles */
 .client-container{
 display: grid; background-color: bisque;
@@ -185,8 +206,21 @@ display: grid; background-color: bisque;
   height: 422px;
   flex-shrink: 0; margin-right: 135px;}
 /* footing related styles */
-.socials {
-  text-align: center;
+.socials{
+  text-align: center;width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+  background-color:rgb(248, 237, 237);
 }
-.social-description-text {
+.social-description-text {margin-top:3rem;
 }
+.socials-box{margin-left: 335px;
+margin-right: 335px;
+margin-top: 60px;
+padding: 3rem;}
+.socials-img-box{margin-left: 60px;
+margin-right: 60px;}
+.ending{
+  margin-top: 90px;
+margin-left: 627px;
+margin-right: 626px;}
