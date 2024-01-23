@@ -3,7 +3,8 @@
 * {
   font-family: "Work Sans";
 }
-header{background:rgb(252, 248, 242);padding: 30px 250px ;}
+
+header{background:rgb(252, 248, 242);padding: 30px 250px ;
 nav {
   display: flex;
   justify-content: space-between;
@@ -81,6 +82,7 @@ height: 52px;
 }
 .order-box{list-style-position: outside;
 
+
 list-style-type: square;
 }
 .reading-btn {
@@ -92,8 +94,6 @@ list-style-type: square;
 }
 .reading-btn-text {
   color: white;
-}
-.popular-text-box{
 }
 
 .popular-box{
@@ -237,8 +237,21 @@ margin-right: 4rem;}
 }
 .newsletter-img{width: 672px;
   height: 422px;
-  flex-shrink: 0; margin-right: 135px;}
-
+  flex-shrink: 0; margin-right: 135px;position: relative;}
+.discount-btn{
+ position: absolute;top: 52%;
+left: 50%;
+width: 324px;
+height: 120px;
+transform: rotate(-30.628deg);
+flex-shrink: 0;
+border-radius: 16px;
+background: #FF5400;
+border: none;
+cursor: pointer;
+color: #FFF;
+font-size:large;
+  }
 /* footing related styles */
 .socials{
   text-align: center;width: 1440px;
@@ -256,5 +269,5 @@ padding: 3rem;}
 margin-right: 60px;}
 .ending{
   margin-top: 90px;
-margin-left: 627px;
-margin-right: 626px;}
+  margin-left: 627px;
+  margin-right: 626px;}
