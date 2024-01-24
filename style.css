@@ -57,7 +57,16 @@ margin-bottom: 60px;
   font-size: 1rem;
   font-weight: 400; justify-content: center;
   }
-.explore-selection{display: inline-flex;
+.find-btn{display: inline-flex;	top: 220px;
+  color: white;
+	left: 16px;
+	width: 255px;
+	height: 52px;
+	border-radius: 8px;
+	background:rgba(255,84,0,1)}
+  .btn-text{color: white;
+  }
+.explore-selection{display: inline-flex;justify-content: center;
   padding: 16px;
   align-items: flex-start;
   gap: 24px;border-radius: 8px;
@@ -73,7 +82,11 @@ margin-bottom: 60px;
 background: #FFF;width: 174px;
 height: 52px;
 }
-.down-arrow{position: absolute relative;}
+.find-img{top: 0px;
+left: 0px;
+width: 24px;
+height: 24px;
+background:rgba(255,255,255,0);}
 
 /* popular section related styles */
 .popular-section-tittle {color: #131318;
