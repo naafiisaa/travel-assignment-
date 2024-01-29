@@ -79,7 +79,7 @@ nav li a {
 .banner-section-1 {
   font-size: 4rem;
   font-weight: 800;
-  padding-top: 30px;
+  padding-top: 20px;
   text-align: center;
   color: rgb(255, 244, 244);
 }
@@ -91,7 +91,7 @@ nav li a {
 }
 .explore-selection {
   display: flex;
-  padding: 10px;
+  padding: 0px;
   align-items: center;
   gap: 24px;
   border-radius: 8px;
@@ -123,7 +123,7 @@ nav li a {
 }
 
 .down-arrow {color: #fff;
-  position: absolute relative;
+  position: absolute;
 }
 
 /* popular section related styles */
@@ -499,5 +499,6 @@ nav li a {
 
     padding: 2px;
   }
-}
+
+
 
